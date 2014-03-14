@@ -1,0 +1,30 @@
+{
+  "name": "simple-assets-proxy",
+  "version": "0.1.0",
+  "description": "Share assets across applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simple-app/simple-assets-proxy.git"
+  },
+  "keywords": [
+    "simple-app",
+    "assets",
+    "proxy"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simple-app/simple-assets-proxy/issues"
+  },
+  "homepage": "https://github.com/simple-app/simple-assets-proxy",
+  "dependencies": {
+    "simple-http-proxy": "~0.5.10",
+    "startup": "~0.3.0",
+    "simple-stack-common": "~0.2.3",
+    "envs": "~0.1.4"
+  }
+}
