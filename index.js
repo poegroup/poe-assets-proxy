@@ -73,8 +73,8 @@ function installRoutes(app, db, opts) {
     });
   });
 
-  app.useBefore('router', '/build', function lookup(req, res, next) {
-    var url = req.originalUrl.split('?')[0];
+  app.useBefore('router', '/assets', function lookup(req, res, next) {
+    var url = req.url.split('?')[0];
     db.lookup(url.substr(1), function(err, endpoints) {
       if (err) return next(err);
       if (!endpoints || !endpoints.length) return res.send(404);
