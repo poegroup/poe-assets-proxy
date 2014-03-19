@@ -1,5 +1,5 @@
 {
-  "name": "simple-assets-proxy",
+  "name": "poe-assets-proxy",
   "version": "0.1.0",
   "description": "Share assets across applications",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simple-app/simple-assets-proxy.git"
+    "url": "https://github.com/poegroup/poe-assets-proxy.git"
   },
   "keywords": [
-    "simple-app",
+    "poegroup",
     "assets",
     "proxy"
   ],
   "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simple-app/simple-assets-proxy/issues"
+    "url": "https://github.com/poegroup/poe-assets-proxy/issues"
   },
-  "homepage": "https://github.com/simple-app/simple-assets-proxy",
+  "homepage": "https://github.com/poegroup/poe-assets-proxy",
   "dependencies": {
     "simple-http-proxy": "~0.5.10",
     "simple-stack-common": "~0.2.3",

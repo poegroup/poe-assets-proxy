@@ -1,4 +1,4 @@
-simple-assets-proxy
+poe-assets-proxy
 ===================
 
 Share assets across applications
@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```sh
-$ npm install --save simple-assets-proxy
+$ npm install --save poe-assets-proxy
 ```
 
 Usage
@@ -15,7 +15,7 @@ Usage
 
 ```js
 // app.js
-var proxy = require('simple-assets-proxy');
+var proxy = require(poe-assets-proxy');
 var db = require('./db');
 
 var app = module.exports = proxy(db, {

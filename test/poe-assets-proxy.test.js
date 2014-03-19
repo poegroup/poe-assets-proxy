@@ -7,7 +7,7 @@ var proxy = require('./app');
 var downstream = require('./downstream');
 var request = require('supertest');
 
-describe('simple-assets-proxy', function() {
+describe('poe-assets-proxy', function() {
   var address;
   before(function(done) {
     var server = downstream.listen(0, function() {
